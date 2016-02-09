@@ -1,0 +1,93 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, SansSerif ;
+    background-color: gainsboro;
+
+
+}
+.container{
+    text-align: center;
+}
+.header {
+    background-color: black;
+    width:100%;
+    text-align: center;
+
+
+
+}
+.logo{
+    color: white;
+    display: inline-block;
+    padding:3%;
+
+
+}
+.header-name{
+    color:whitesmoke;
+    display: inline-block;
+
+}
+.header-name h1 {
+    font-weight: 200;
+    font-size: 1.5em;
+}
+.top {
+    color: mediumvioletred;
+    font-size: 1.3em;
+    font-weight: 100;
+
+
+}
+
+.bottom{
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1px;
+}
+.lists{
+    display: block;
+
+
+}
+.lists ul{
+
+}
+.lists li{
+    border-width: 1px;
+    padding:1%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 4px;
+    list-style: none;
+     width: 25em;
+    margin: 0 auto 2px auto;
+    max-width: 80%;
+
+}
+.lists li:first-child{
+    background-color: mediumvioletred ;
+    color: whitesmoke;
+    font-weight: 300;
+}
+.footer {
+    background-color: black;
+    width:100%;
+    text-align: ;
+    height: 25%;
+    bottom: 0;
+    position: absolute;
+}
+.footer-nav li{
+    background-color: whitesmoke;
+    list-style: none;
+    width: 6em;
+    display: inline-block;
+    padding: 1%;
+    margin: 5px 0px 15px 0px;
+    border-radius: 4px;
+}
+
+
