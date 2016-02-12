@@ -1,0 +1,26 @@
+{
+  "name": "sexy-shopping-list",
+  "version": "1.0.0",
+  "description": "Sexy O Yeah!    3sc sexy cart",
+  "main": "index.js",
+  "scripts": {
+     "precompile": "rm -rf build/*",
+    "compile": "npm run compile:js && npm run compile:styles",
+    "test": "echo \"Error: no test specified\"", "list": "ls node_modules/.bin",
+    "compile:js": "cp -R app/js build",
+    "compile:styles": "node-sass app/styles/main.scss build/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-borges/sexy-shopping-list.git"
+  },
+  "author": "Joshua Borges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-borges/sexy-shopping-list/issues"
+  },
+  "homepage": "https://github.com/j-borges/sexy-shopping-list#readme",
+  "dependencies": {
+    "node-sass": "^3.4.2"
+  }
+}
