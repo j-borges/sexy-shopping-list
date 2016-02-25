@@ -1,0 +1,28 @@
+.lists {
+
+.list {
+  display: block;
+  width: 400px;
+  max-width: 80%;
+  text-align: center;
+  margin: 10px auto 10px;
+  list-style: none;
+  padding: 0px;
+
+}
+  .list-header{
+    background-color: mediumvioletred ;
+    color: whitesmoke;
+    font-weight: 300;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 2px;
+  }
+  .item {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    background-color: whitesmoke;
+
+  }
+}

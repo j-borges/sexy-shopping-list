@@ -1,0 +1,20 @@
+.btn-bar {
+  display: inline-block;
+  max-width: 400px;
+  border-radius: 4px;
+
+}
+.btn {
+  padding: 5px 18px;
+  margin: 0;
+  float: left;
+  font-size: 1em;
+  color: whitesmoke;
+  border: 1px solid #1c252b;
+  border-radius: 4px;
+  background: (linear-gradient(#888, #111));
+  &:hover {
+    color: lightgrey;
+    background: (linear-gradient(#777, #000));
+  }
+}

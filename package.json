@@ -8,7 +8,6 @@
     "server": "live-server --watch=index.html,build",
     "precompile": "rm -rf build/*",
     "compile": "npm run compile:js && npm run compile:styles",
-    "test": "echo \"Error: no test specified\"",
     "list": "ls node_modules/.bin",
     "compile:js": "cp -R app/js build",
     "compile:styles": "node-sass app/styles/main.scss build/styles/main.css",
@@ -30,5 +29,8 @@
     "live-server": "^0.9.1",
     "node-sass": "^3.4.2",
     "watch": "^0.17.1"
+  },
+  "devDependencies": {
+    "sass-lint": "^1.5.0"
   }
 }

@@ -1,1 +1,7 @@
-@import "variables";
+@import "variable";
+@import "global";
+
+// components
+@import "shopping-list";
+@import "header-footer";
+@import "button-bar";
